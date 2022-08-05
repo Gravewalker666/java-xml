@@ -28,6 +28,8 @@ public class DOMParserDemo {
                     System.out.println("Student roll no : " + eElement.getAttribute("rollno"));
                     System.out.println("First Name : " + eElement.getElementsByTagName("firstname").item(0).getTextContent());
                     System.out.println("Last Name : " + eElement.getElementsByTagName("lastname").item(0).getTextContent());
+                    System.out.println("Grade : " + eElement.getElementsByTagName("grade").item(0).getTextContent());
+                    System.out.println("Marks : " + eElement.getElementsByTagName("marks").item(0).getTextContent());
                 }
             }
         } catch (Exception e) {
