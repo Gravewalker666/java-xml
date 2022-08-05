@@ -4,11 +4,9 @@ import java.util.List;
 import java.io.*;
 
 public class SerializeToXML {
-
     private static final String SERIALIZED_FILE_NAME = "dvd.xml";
 
     public static void main(String[] args) {
-
         Movie bourneIdentity = new Movie("The Bourne Identity", 119, "Doug Liman", 2002, "Matt Damon, Franka Potente");
         Movie bourneSupremacy = new Movie("The Bourne Supremacy", 108, "Paul Greengrass", 2004, "Matt Damon, Franka Potente, Joan Allen");
         Movie bourneUltimatum = new Movie("The Bourne Ultimatum", 115, "Paul Greengrass", 2007, "Matt Damon, Edgar Ramirez, Joan Allen");
